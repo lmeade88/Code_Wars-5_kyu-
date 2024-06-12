@@ -5,8 +5,7 @@ function strCount(string, char) {
             count++;
         }
     }
-    return count;
+    console.log (count)
 }
 
-strCount("hello", "l")
-
+strCount("Moonsault", "M")
