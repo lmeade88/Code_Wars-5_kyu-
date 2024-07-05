@@ -14,3 +14,26 @@
 
 // s="aaaxbbbbyyhwawiwjjjwwm"
 // printer_error(s) => "8/22"
+
+function printerError(s) {
+    // Initialize the error count
+    let errorCount = 0;
+    
+    // Define the valid characters
+    const validChars = "abcdefghijklm";
+    
+    // Iterate through the control string
+    for (let char of s) {
+        // Increment error count if character is not valid
+        if (!validChars.includes(char)) {
+            errorCount++;
+        }
+    }
+    
+    // Return the error rate as a fraction string
+    return `${errorCount}/${s.length}`;
+}
+
+// Example usage:
+console.log(printerError("aaabbbbhaijjjm")); // Output: "0/14"
+console.log(printerError("aaaxbbbbyyhwawiwjjjwwm")); // Output: "8/22"

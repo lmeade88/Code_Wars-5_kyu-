@@ -7,3 +7,5 @@
 function checkArrayContains(arr, x) {
     return arr.includes(x);
 }
+
+
