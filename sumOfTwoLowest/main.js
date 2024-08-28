@@ -13,3 +13,6 @@ function sumTwoSmallestNumbers(numbers) {
   }
 
 console.log(sumTwoSmallestNumbers(numbers));
+
+
+REVISED 1
