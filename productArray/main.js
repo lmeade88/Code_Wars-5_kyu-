@@ -48,6 +48,6 @@ function productArray(arr) {
   }
   
   // Example usage:
-  const arr = [1, 2, 3, 4];
+  const arr = [2, 3, 4];
   console.log(productArray(arr)); // Output: [24, 12, 8, 6]
   
